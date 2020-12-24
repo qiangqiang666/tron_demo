@@ -20,5 +20,7 @@ TransactionSignDemo: 创建交易-->签名-->广播(broadcasthex)
 ## 普通转账
 TransferTest: 创建交易-->签名-->广播(broadcasttransaction)
 
+## 错误信息解析
+ErrorMessageTest: 执行节点API时,返回了结果,如果内部包含了message,解析message字段得到真正报错的原因....
 
 __注意: 执行main方法,请更换IP地址__
