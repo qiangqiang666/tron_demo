@@ -1,6 +1,5 @@
 package com.tron.demo.common;
 
-import com.tron.demo.common.Transaction;
 
 /**
  * 描述:

@@ -1,5 +1,8 @@
 package com.tron.demo.common;
 
+import com.google.protobuf.CodedOutputStream;
+
+import java.io.IOException;
 import java.util.List;
 
 /**

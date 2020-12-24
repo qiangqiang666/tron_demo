@@ -28,6 +28,7 @@ public class AddressConverTest {
         String hexConverBase58 = tryToBase58Addr(hexStr);
         System.out.println(hexConverBase58);
 
+        // 校验
         System.out.println(base58ConverHex.equalsIgnoreCase(hexStr));
         System.out.println(hexConverBase58.equalsIgnoreCase(base58));
     }
@@ -71,7 +72,7 @@ public class AddressConverTest {
         return Base58.encode(inputCheck);
     }
 
-    private static byte[] decode58Check(String input) {
+    public static byte[] decode58Check(String input) {
         byte[] decodeCheck = Base58.decode(input);
         if (decodeCheck.length <= 4) {
             return null;
