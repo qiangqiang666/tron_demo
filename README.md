@@ -10,8 +10,10 @@ AccountTest: 创建账户-->签名-->广播(broadcasttransaction)
 ## 资源
 ResourceTest : 创建资源交易-->签名-->广播(broadcasttransaction)
 ### 资源测试
-HighFrequencyQuery: 高频查询带宽
-HighFrequencyTransfer: 高频快捷转账
+HighFrequencyQuery: 高频查询带宽  
+
+HighFrequencyTransfer: 高频快捷转账  
+
 ps: 两个类的main函数执行,观察带宽消耗情况
 
 ## 离线签名
@@ -21,4 +23,4 @@ TransactionSignDemo: 创建交易-->签名-->广播(broadcasthex)
 TransferTest: 创建交易-->签名-->广播(broadcasttransaction)
 
 
-__注意: 执行main方法,请更换IP地址__
+__注意: 以上类中,执行main方法,请更换IP地址__
