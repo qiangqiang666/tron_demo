@@ -26,3 +26,4 @@ TransferTest: 创建交易-->签名-->广播(broadcasttransaction)
 ErrorMessageTest: 执行节点API时,返回了结果,如果内部包含了message,解析message字段得到真正报错的原因....
 
 __注意: 以上类中,执行main方法,请更换IP地址__
+更换项目中的lib目录下的wallet-cli.jar,自己去https://github.com/tronprotocol/wallet-cli,修改配置文件,并且重新编译打包,然后将jar包,更换掉
